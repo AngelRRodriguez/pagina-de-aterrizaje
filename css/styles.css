@@ -1,0 +1,88 @@
+body {
+    background-color: #bee500;
+}
+
+.title-section {
+    padding: 80px 0;
+}
+
+.intro-text {
+    padding: 0 25px;
+    padding-bottom: 30px;
+    padding-top: 19px;
+}
+
+.iphone-col {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.iphone-col .iphone-img {
+    position: absolute;
+    bottom: -190px;
+    left: -20px;
+}
+
+.iphone-col .iphone-logo {
+    position: absolute;
+    margin-left: 50%;
+    left: -114px;
+    bottom: 532px;
+    width: 200px;
+}
+
+.overlay {
+    position: absolute;
+    width: 306px;
+    height: 445px;
+    bottom: 0;
+    right: 62px;
+    background-color: white;
+    z-index: 2;
+    opacity: 1;
+    overflow: hidden;
+    padding: 33px;
+}
+
+.tagline {
+    margin-top: 40px;
+}
+
+.ui-slide {
+    margin-top: 80px;
+}
+
+.ok-button  {
+    margin-top: 50px;
+}
+
+.overlay-2 {
+    position: absolute;
+    width: 186px;
+    height: 331px;
+    background-color: pink;
+    right: 41px;
+    bottom: 58px;
+}
+
+
+.fade-1 {
+    animation: fadein 1s;
+}
+
+.fade-2 {
+    animation: fadein 3s;
+}
+
+.fade-3 {
+    animation: fadein 4s;
+}
+
+.info-col .logo img {
+    width: 170px;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
